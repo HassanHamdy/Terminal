@@ -1,0 +1,38 @@
+/home/ninzu/c/OS_Version4 - NoInputError/main.c: In function ‘main’:
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:60:12: warning: passing argument 1 of ‘concat’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     concat(home,"/");
+            ^
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:43:6: note: expected ‘char *’ but argument is of type ‘const char *’
+ void concat(char *s1,char *s2);
+      ^
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:61:10: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     path = home;
+          ^
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:237:21: warning: format not a string literal and no format arguments [-Wformat-security]
+                     fprintf(fp,Command);
+                     ^
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:252:21: warning: format not a string literal and no format arguments [-Wformat-security]
+                     fprintf(fp,Command);
+                     ^
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:280:21: warning: format not a string literal and no format arguments [-Wformat-security]
+                     fprintf(fp,Command);
+                     ^
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:297:21: warning: format not a string literal and no format arguments [-Wformat-security]
+                     fprintf(fp,Command);
+                     ^
+/home/ninzu/c/OS_Version4 - NoInputError/main.c: In function ‘Run_Command_in_background’:
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:362:9: warning: format not a string literal and no format arguments [-Wformat-security]
+         fprintf(fp,cmd);
+         ^
+/tmp/ccj99AGi.o: In function `main':
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:84: undefined reference to `readline'
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:99: undefined reference to `add_history'
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:129: undefined reference to `pthread_create'
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:132: undefined reference to `pthread_join'
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:146: undefined reference to `pthread_create'
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:149: undefined reference to `pthread_join'
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:211: undefined reference to `pthread_create'
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:214: undefined reference to `pthread_join'
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:314: undefined reference to `pthread_create'
+/home/ninzu/c/OS_Version4 - NoInputError/main.c:317: undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status

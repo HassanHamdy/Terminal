@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1482503296 source:/home/elhosany/Desktop/OS_Version5/main.c
+	<readline/readline.h>
+	<readline/history.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<pthread.h>
+	<ctype.h>
+	<sys/types.h>
+	<unistd.h>
+	<errno.h>
+
+1482695187 source:/home/islam/projects/OS_Ver6/main.c
+	<readline/readline.h>
+	<readline/history.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<pthread.h>
+	<ctype.h>
+	<sys/types.h>
+	<unistd.h>
+	<errno.h>
+
+1482766625 source:/home/elhosany/Desktop/OS Final Version/main.c
+	<readline/readline.h>
+	<readline/history.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<pthread.h>
+	<ctype.h>
+	<sys/types.h>
+	<unistd.h>
+	<errno.h>
+
